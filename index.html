@@ -10,60 +10,51 @@
 <body background="./images/pizza2.jpg">
   <div class="hero">
     <h1>RAYCH'S PIZZA PARLOR</h1>
-    <h4>Do good. Be nice. Order pizza. Repeat.</h4>
+    <h4 id="good">Do good. Be nice. Order pizza. Repeat.</h4>
   </div>
   <form id="pizza">
     <h2>Menu Card</h2>
     <label for ="size">Size</label><br>
     <select class="col-md-2" id="size">
-      <option value="600">Small</option>
-      <option value="1200">Medium</option>
-      <option value="1800">Large</option>
+      <option value="400">Small</option>
+      <option value="600">Medium</option>
+      <option value="800">Large</option>
     </select><br>
     <label for ="crust">Crust</label><br>
     <select class="col-md-2" id="crust">
       <option value="200">Crispy</option>
-      <option value="300">Stuffed</option>
-      <option value="350">Gluten-free</option>
+      <option value="250">Stuffed</option>
+      <option value="300">Gluten-free</option>
     </select><br>
     <label for ="Toppings">Toppings</label><br>
-    <select class="col-md-2" id="toppings">
-      <option value="150">Onions</option>
-      <option value="200">Barbeque,chicken</option>
-      <option value="250">Bacon, Mushroom</option>
-      <option value="300">Chicken, onions</option>
-      <option value="400">Mushroom, sausage</option>
+    <select class="col-md-4" id="toppings">
+      <option value="450">Bacon</option>
+      <option value="450">Cheese</option>
+      <option value="150">Veggy Fest</option>
+      <option value="250">Mushroom</option>
+      <option value="250">Fruity Fest</option>
+      <option value="250">Beef</option>
+      <option value="300">Chicken</option>
     </select><br>
-    <label for ="number">Number of Pizza</label><br>
-    <input class="col-md-2" type ="number" id ="number" placeholder="Quantity" min=1 max= 35><br>
+    <label for ="number">Number of Pizzas</label><br>
+    <input class="col-md-3" type ="number" id ="number" placeholder="NO" min=1 max= 20><br>
     <label for ="delivery">Delivery</label><br>
     <select class="col-md-2" id="delivery">
-      <option value="300">Yes</option>
+      <option value="200">Yes</option>
       <option value="0">No</option>
     </select><br>
     <button type= "my button" class="col-md-2" id="checkout" onclick="checkout()">ORDER</button>
-    <h4 id="scroll">Scroll down to view your order </h4>
+    <h4 id="scroll">view your order summary</h4>
   </form>
   <div id="summary" class="summary">
     <h2>See your order:</h2>
-    <h4>Pizza size: Ksh <span id="seeYourSizeChoice"></span></h4>
-    <h4>Pizza crust: Ksh<span id="seeYourCrustChoice"></span></h4>
-    <h4>Pizza toppings: Ksh<span id="seeYourToppingsChoice"></span></h4>
-    <h4>Pizza quantity: Ksh<span id="seeYourQuantityChoice"></span></h4>
-    <h4>Pizza Delivery: Ksh<span id="seeYourDeliveryChoice"></span></h4>
+    <h4>Pizza size: Ksh <span id="YourSizeChoice"></span></h4>
+    <h4>Pizza crust: Ksh<span id="YourCrustChoice"></span></h4>
+    <h4>Pizza toppings: Ksh<span id="YourToppingsChoice"></span></h4>
+    <h4>Pizza quantity: Ksh<span id="YourQuantityChoice"></span></h4>
+    <h4>Pizza Delivery: Ksh<span id="YourDeliveryChoice"></span></h4>
     <h2>Ksh<span id="displayTotal"></span></h2>
-    <h4>mPesa Paybill-322322</h4>
-</div>
-<div id="summary" class="summary">
-  <h2>See your order:</h2>
-  <h4>Pizza size: Ksh <span id="seeYourSizeChoice"></span></h4>
-  <h4>Pizza crust: Ksh<span id="seeYourCrustChoice"></span></h4>
-  <h4>Pizza toppings: Ksh<span id="seeYourToppingsChoice"></span></h4>
-  <h4>Pizza quantity: Ksh<span id="seeYourQuantityChoice"></span></h4>
-  <h4>Pizza Delivery: Ksh<span id="seeYourDeliveryChoice"></span></h4>
-  <h2>Ksh<span id="displayTotal"></span></h2>
-  <h4>mPesa Paybill-322322</h4>
-</div>
+    <h4>Paybill-323323</h4>
  <script src="./js/jquery-3.6.0.js"></script>
  <script src="./js/bootstrap.min.js"></script>
  <script src="./js/script.js"></script>
