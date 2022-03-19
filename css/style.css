@@ -1,4 +1,6 @@
 
-.hero{
-  background-image: url("../images/pizza2.jpg");
+.table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 100%;
 }

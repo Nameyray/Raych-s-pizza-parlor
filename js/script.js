@@ -1,3 +1,14 @@
+
+  
+$(document).ready(function(){
+  $('.text').hover(function () {
+  $(this).animate({opacity:'1'});
+  },
+  function () {
+  $(this).animate({opacity:'0'});
+})
+});
+
 $(document).ready(function() {
   $('#scroll').hide();
 })    
@@ -5,14 +16,6 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('#summary').hide();
 })
-$(document).ready(function() {
-  $('#scroll').hide();
-})    
-
-$(document).ready(function() {
-  $('#summary').hide();
-})
-
 
 $(document).ready(function() {
   var deliveryPrice = 0;
@@ -37,11 +40,11 @@ $('form#pizza').submit(function(event) {
   document.getElementById('displayTotal').innerHTML = total 
   console.log(total);
 
-  document.getElementById('hereIsYourSizeChoice').innerHTML = pizzaSize;
-  document.getElementById('hereIsYourCrustChoice').innerHTML = pizzaCrust;
-  document.getElementById('hereIsYourToppingsChoice').innerHTML = pizzaTopping;
-  document.getElementById('hereIsYourQuantityChoice').innerHTML = pizzaQuantity;
-  document.getElementById('hereIsYourDeliveryChoice').innerHTML = pizzaDelivery;
+  document.getElementById('seeYourSizeChoice').innerHTML = pizzaSize;
+  document.getElementById('seeYourCrustChoice').innerHTML = pizzaCrust;
+  document.getElementById('seeYourToppingsChoice').innerHTML = pizzaTopping;
+  document.getElementById('seeYourQuantityChoice').innerHTML = pizzaQuantity;
+  document.getElementById('seeYourDeliveryChoice').innerHTML = pizzaDelivery;
   $('#summary').show();
   $('#scroll').show();
 
