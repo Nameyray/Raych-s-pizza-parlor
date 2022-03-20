@@ -5,7 +5,7 @@ $(document).ready(function() {
 })    
 
 $(document).ready(function() {
-  $('#summary').show();
+  $('#summary').hide();
 })
 
 $(document).ready(function() {

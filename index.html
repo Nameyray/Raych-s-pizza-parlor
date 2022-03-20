@@ -4,65 +4,87 @@
   <meta charset="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Raych's-pizza-parlor</title>
-  <link href="style.css" rel="style" type="text/css">
-  <link href="bootstrap.min.css" rel="stylesheet type="text/css">
-</head>
-<body background="./images/pizza2.jpg" no-repeat>
-  <div class="container-fluid">
-   <div class="logo">
-     <img src="./images/pizza logo.jpg" alt="pizza logo" width="15%">
-   </div>
-  </div>
-  
-  <div class="hero">
-    <h1>RAYCH'S PIZZA PARLOR</h1>
-    <h4 class="good">Do good. Be nice. Order pizza. Repeat.</h4>
-  </div>
 
-  <form id="pizza">
-    <h2>Place an order!</h2>
-    <label for ="size">Size</label><br>
-    <select class="col-md-2" id="size">
-      <option value="600">Small</option>
-      <option value="900">Medium</option>
-      <option value="1300">Large</option>
-    </select><br>
-    <label for ="crust">Crust</label><br>
-    <select class="col-md-2" id="crust">
-      <option value="200">Crispy</option>
-      <option value="250">Stuffed</option>
-      <option value="300">Gluten-free</option>
-    </select><br>
-    <label for ="Toppings">Toppings</label><br>
-    <select class="col-md-4" id="toppings">
-      <option value="450">Bacon</option>
-      <option value="450">Cheese</option>
-      <option value="150">Veggy Fest</option>
-      <option value="250">Mushroom</option>
-      <option value="250">Fruity Fest</option>
-      <option value="250">Beef</option>
-      <option value="300">Chicken</option>
-    </select><br>
-    <label for ="number">Number of Pizzas</label><br>
-    <input class="col-md-3" type ="number" id ="number" placeholder="NO" min=1 max= 20><br>
-    <label for ="delivery">Delivery</label><br>
-    <select class="col-md-2" id="delivery">
-      <option value="250">Yes</option>
-      <option value="0">No</option>
-    </select><br>
-    <button type= "my button" class="col-md-2" id="checkout" onclick="checkout()">ORDER</button>
-    <h4 id="scroll">view your order summary</h4>
-  </form>
-  <div id="summary" class="summary">
-    <h2>Your order:</h2>
-    <h4>Pizza size: Ksh <span id="seeYourSizeChoice"></span></h4>
-    <h4>Pizza crust: Ksh<span id="seeYourCrustChoice"></span></h4>
-    <h4>Pizza toppings: Ksh<span id="seeYourToppingsChoice"></span></h4>
-    <h4>Pizza quantity: Ksh<span id="seeYourQuantityChoice"></span></h4>
-    <h4>Delivery fee: Ksh<span id="seeYourDeliveryChoice"></span></h4>
-    <h2>Ksh<span id="displayTotal"></span></h2>
-    <h4>Paybill-323323</h4>
+  <link rel="stylesheet" href="css/style.css"type="text/css">
+  <link href="bootstrap.min.css" rel="stylesheet type="css/text">
+</head>
+
+<body background="./images/pizza2.jpg" no-repeat>
+  <h1 id="h1">RAYCH'S PIZZA PARLOR</h1>
+  <p id="p">Do good. Be nice. Order pizza. Repeat!</p>
+<div class="navigation-container">
+  <div class="navigation-content">
+   
+    <div class="menu">
+      <ul>
+       <li><a href="#">Menu</a></li>
+       <li><a href="#">Best deals</a></li>
+       <li><a href="#">contact</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
+<div class="content-container">
+ 
+  <div class="content">
+    <div class="row1">
+     <div class="new">
+      <form id="pizza">
+        <h2>Place an order!</h2>
+        <label for ="size">Size</label><br>
+        <select class="col-md-2" id="size">
+          <option value="600">Small</option>
+          <option value="900">Medium</option>
+          <option value="1300">Large</option>
+        </select><br>
+        <label for ="crust">Crust</label><br>
+        <select class="col-md-2" id="crust">
+          <option value="200">Crispy</option>
+          <option value="250">Stuffed</option>
+          <option value="300">Gluten-free</option>
+        </select><br>
+        <label for ="Toppings">Toppings</label><br>
+        <select class="col-md-4" id="toppings">
+          <option value="450">Bacon</option>
+          <option value="450">Cheese</option>
+          <option value="150">Veggy Fest</option>
+          <option value="250">Mushroom</option>
+          <option value="250">Fruity Fest</option>
+          <option value="250">Beef</option>
+          <option value="300">Chicken</option>
+        </select><br>
+        <label for ="number">Number of Pizzas</label><br>
+        <input class="col-md-3" type ="number" id ="number" placeholder="NO" min=1 max= 20><br>
+        <label for ="delivery">Delivery</label><br>
+        <select class="col-md-2" id="delivery">
+          <option value="250">Yes</option>
+          <option value="0">No</option>
+        </select><br>
+        <button type= "my button" class="col-md-2" id="checkout" onclick="checkout()">ORDER</button>
+        <h4 id="scroll">view your order summary</h4>
+      </form>
+      <div id="summary" class="summary">
+        <h2>Your order:</h2>
+        <h4>Pizza size: Ksh <span id="seeYourSizeChoice"></span></h4>
+        <h4>Pizza crust: Ksh<span id="seeYourCrustChoice"></span></h4>
+        <h4>Pizza toppings: Ksh<span id="seeYourToppingsChoice"></span></h4>
+        <h4>Pizza quantity: Ksh<span id="seeYourQuantityChoice"></span></h4>
+        <h4>Delivery fee: Ksh<span id="seeYourDeliveryChoice"></span></h4>
+        <h2>Ksh<span id="displayTotal"></span></h2>
+        <h4>Paybill-323323</h4>
+    </div>
+     </div>
+    </div>
+    <div class="row2">
+
+    </div>
+    <div class="row3">
+
+    </div>
+  </div>
+</div>
+ <div class="Best deals"></div>
+  
  <script src="./js/jquery-3.6.0.js"></script>
  <script src="./js/bootstrap.min.js"></script>
  <script src="./js/script.js"></script>
