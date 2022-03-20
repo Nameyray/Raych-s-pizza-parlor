@@ -5,18 +5,18 @@ $(document).ready(function() {
 })    
 
 $(document).ready(function() {
-  $('#summary').hide();
+  $('#summary').show();
 })
 
 $(document).ready(function() {
   var deliveryPrice = 0;
   $('#checkout').click(function() {
       var checkValue = document.getElementById('delivery').value;
-      if (checkValue === '200') {
-          deliveryPrice += 200;
-          var location = prompt('Say your location:');
+      if (checkValue === '250') {
+          deliveryPrice += 250;
+          var location = prompt('where is your location?');
           alert('Delivery Price is Ksh' + deliveryPrice)
-          alert('Pizza will be delivered at' + ' ' + location);
+          alert('Pizza will be delivered in' + ' ' + location);
       }     
   });
 

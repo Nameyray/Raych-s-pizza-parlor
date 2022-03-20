@@ -7,18 +7,25 @@
   <link href="style.css" rel="style" type="text/css">
   <link href="bootstrap.min.css" rel="stylesheet type="text/css">
 </head>
-<body background="./images/pizza2.jpg">
+<body background="./images/pizza2.jpg" no-repeat>
+  <div class="container-fluid">
+   <div class="logo">
+     <img src="./images/pizza logo.jpg" alt="pizza logo" width="15%">
+   </div>
+  </div>
+  
   <div class="hero">
     <h1>RAYCH'S PIZZA PARLOR</h1>
-    <h4 id="good">Do good. Be nice. Order pizza. Repeat.</h4>
+    <h4 class="good">Do good. Be nice. Order pizza. Repeat.</h4>
   </div>
+
   <form id="pizza">
-    <h2>Menu Card</h2>
+    <h2>Place an order!</h2>
     <label for ="size">Size</label><br>
     <select class="col-md-2" id="size">
-      <option value="400">Small</option>
-      <option value="600">Medium</option>
-      <option value="800">Large</option>
+      <option value="600">Small</option>
+      <option value="900">Medium</option>
+      <option value="1300">Large</option>
     </select><br>
     <label for ="crust">Crust</label><br>
     <select class="col-md-2" id="crust">
@@ -40,21 +47,22 @@
     <input class="col-md-3" type ="number" id ="number" placeholder="NO" min=1 max= 20><br>
     <label for ="delivery">Delivery</label><br>
     <select class="col-md-2" id="delivery">
-      <option value="200">Yes</option>
+      <option value="250">Yes</option>
       <option value="0">No</option>
     </select><br>
     <button type= "my button" class="col-md-2" id="checkout" onclick="checkout()">ORDER</button>
     <h4 id="scroll">view your order summary</h4>
   </form>
   <div id="summary" class="summary">
-    <h2>See your order:</h2>
-    <h4>Pizza size: Ksh <span id="YourSizeChoice"></span></h4>
-    <h4>Pizza crust: Ksh<span id="YourCrustChoice"></span></h4>
-    <h4>Pizza toppings: Ksh<span id="YourToppingsChoice"></span></h4>
-    <h4>Pizza quantity: Ksh<span id="YourQuantityChoice"></span></h4>
-    <h4>Pizza Delivery: Ksh<span id="YourDeliveryChoice"></span></h4>
+    <h2>Your order:</h2>
+    <h4>Pizza size: Ksh <span id="seeYourSizeChoice"></span></h4>
+    <h4>Pizza crust: Ksh<span id="seeYourCrustChoice"></span></h4>
+    <h4>Pizza toppings: Ksh<span id="seeYourToppingsChoice"></span></h4>
+    <h4>Pizza quantity: Ksh<span id="seeYourQuantityChoice"></span></h4>
+    <h4>Delivery fee: Ksh<span id="seeYourDeliveryChoice"></span></h4>
     <h2>Ksh<span id="displayTotal"></span></h2>
     <h4>Paybill-323323</h4>
+</div>
  <script src="./js/jquery-3.6.0.js"></script>
  <script src="./js/bootstrap.min.js"></script>
  <script src="./js/script.js"></script>
