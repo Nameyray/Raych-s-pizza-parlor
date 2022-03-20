@@ -1,8 +1,8 @@
-# delani-studio
-#### {This is a link to my week three independent project at Moringa School.}, {14th March 2022}
+# Raych's Pizza parlor
+#### {This is a link to my week four independent project at Moringa School.}, {21st March 2022}
 #### By **{Rachel Namiba}**
 ## Description
-{THis is an application with a landing page for a fictional studio. When a user clicks the what we do icons it will toggle between respective description of each icon.The user will also be thanked through a pop up message after their message is received}
+{This is an application for my pizza parlor where my customers can order online. They can choose the size they want, the toppings they prefer as well as the crust. They will also choose whether they would love the pizza delivered to them or not If a customer wants to be delivered for the order, a pop shows up asking them of their location and the amount of price for the delivery. They will also get a chance to view their order summary which contains the price of the pizza size, crust, topping as well as the delivery fee and the total as well will be dispalyed.}
 ## Setup/Installation requirements
 * Git clone the work
 * Navigate the directory
