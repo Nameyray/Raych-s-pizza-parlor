@@ -7,9 +7,10 @@
 * Git clone the work
 * Navigate the directory
 * run the index.html file to view the webpage 
-* go through the site and enter your name and a message to receive a pop up thank you note
+* go through the site and choose how you would love your pizza made.
+*choose whether to get ypour order delivered as well or not
 ## Known Bugs
-{At the moment there are no errors but the application is not complete fully enough to achieve what it was intended to do.}
+{At the moment there are no errors .}
 ## Technologies Used
 {The application was done using HTML, CSS, Javascript, jQuery and Bootstrap}
 ## Support and contact details
