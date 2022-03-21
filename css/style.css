@@ -99,3 +99,7 @@ body{
   font-size: larger;
   font-style: italic;
 }
+#place{
+  color: white;
+  font-style: oblique;
+}
