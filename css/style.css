@@ -102,6 +102,9 @@ body{
 #number{
   margin-bottom: 1%;
 }
+#delivery{
+  margin-bottom: 2%;
+}
 .summary{
   color: #ffffff;
   
@@ -121,4 +124,7 @@ body{
 #place{
   color: white;
   font-style: oblique;
+}
+#contact{
+ margin-left: 15%;
 }
