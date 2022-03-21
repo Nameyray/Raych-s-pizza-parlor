@@ -68,6 +68,9 @@ body{
   text-align: center;
   float: left;
 }
+html{
+  scroll-behavior: smooth;
+}
 #checkout{
   width: 100px;
   height: 30px;
@@ -87,7 +90,8 @@ body{
 #size{
   width: 90px;
   height: 25px;
-  margin-bottom: 3%;
+  margin-bottom: 1%;
+  
 }
 #crust{
   width: 90px;
