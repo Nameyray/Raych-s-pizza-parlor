@@ -81,7 +81,26 @@ body{
   border: none;
   outline: none;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  align-items: right;
 
+}
+#size{
+  width: 90px;
+  height: 25px;
+  margin-bottom: 3%;
+}
+#crust{
+  width: 90px;
+  height: 25px;
+  display: block;
+  margin-bottom: 3%;
+  
+}
+#toppings{
+  margin-bottom: 4%;
+}
+#number{
+  margin-bottom: 1%;
 }
 .summary{
   color: #ffffff;
